@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {"numero": "Lote 1", "propietario": "Juan Pérez"},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-77.1445, -11.861],
+          [-77.1440, -11.861],
+          [-77.1440, -11.862],
+          [-77.1445, -11.862],
+          [-77.1445, -11.861]
+        ]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"numero": "Lote 2", "propietario": "María López"},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-77.1440, -11.861],
+          [-77.1435, -11.861],
+          [-77.1435, -11.862],
+          [-77.1440, -11.862],
+          [-77.1440, -11.861]
+        ]]
+      }
+    }
+  ]
+}
