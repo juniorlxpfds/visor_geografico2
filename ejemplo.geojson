@@ -3,19 +3,26 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {
-        "nombre": "Centro de Lima"
-      },
+      "properties": {"nombre": "Av. Principal"},
       "geometry": {
-        "type": "Polygon",
-        "coordinates": [[
-          [-77.0372, -12.0454],
-          [-77.0315, -12.0454],
-          [-77.0315, -12.0502],
-          [-77.0372, -12.0502],
-          [-77.0372, -12.0454]
-        ]]
+        "type": "LineString",
+        "coordinates": [
+          [-77.145, -11.860],
+          [-77.140, -11.865]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {"nombre": "Calle Secundaria"},
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-77.143, -11.862],
+          [-77.138, -11.867]
+        ]
       }
     }
   ]
 }
+
