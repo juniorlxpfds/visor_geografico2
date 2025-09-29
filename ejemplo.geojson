@@ -1,0 +1,21 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nombre": "Centro de Lima"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [-77.0372, -12.0454],
+          [-77.0315, -12.0454],
+          [-77.0315, -12.0502],
+          [-77.0372, -12.0502],
+          [-77.0372, -12.0454]
+        ]]
+      }
+    }
+  ]
+}
