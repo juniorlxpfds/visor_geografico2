@@ -1,0 +1,33 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+}
+header {
+  background: #004080;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+footer {
+  background: #f0f0f0;
+  color: #333;
+  padding: 6px;
+  text-align: center;
+  font-size: 14px;
+}
+#map {
+  flex: 1;  /* que ocupe todo el espacio restante entre header y footer */
+}
+.info.legend {
+  background: white;
+  padding: 6px 8px;
+  font: 14px/16px Arial, Helvetica, sans-serif;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
